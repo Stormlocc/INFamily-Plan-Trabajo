@@ -1,0 +1,57 @@
+main{
+    margin: 0 10%;
+}
+.portada{
+    width: 100%;
+    display: block;
+}
+.titulo{
+    color: rgb(34, 111, 179);
+    margin: 10px 0 10px 0;
+}
+
+.propuestas :first{
+    background-color: aqua;
+}
+
+.propuestas-third{
+    display: inline-block;
+    width: 60%;
+    background-color: rgb(230, 230, 230);
+    margin: 10px 0 10px 0;
+    border-radius: 12px;
+    
+}
+
+.propuestas{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    margin: 10px 0 10px 0;
+    border-radius: 12px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.video{
+    display: inline;
+    float:right;
+    margin: 20px;
+    width: 35%;
+}
+.propuestas h3{
+    margin: 15px 30px;
+}
+ul{
+    display: inline-block;
+}
+li{
+    display: block;
+}
+footer{
+    background-color: rgb(31, 31, 146);
+    color: aliceblue;
+    height: 200px;
+}
+
+/*Responsivo que el video se vaya abajo*/
