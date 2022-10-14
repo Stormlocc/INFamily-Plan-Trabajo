@@ -47,6 +47,8 @@ ul{
 }
 li{
     display: block;
+    margin: 30px 60px 0 20px;
+    text-align: justify;
 }
 footer{
     background-color: rgb(25, 25, 117);
