@@ -82,11 +82,16 @@ img {
     justify-content: left;
     font-family: 'Source Code Pro', monospace;
     padding-top: 2rem;
+    padding-left: 10%;
     color: var(--yellow);
     margin: 0;
     line-height: .9;
 }
-
+.propuestas h3{
+    font-family: 'Source Code Pro', monospace;
+    color: var(--yellow);
+    margin-left: 10%;
+}
 ul{
     display: inline-block;
     padding: 0px 10%;
