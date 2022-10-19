@@ -99,6 +99,7 @@ img {
 
 /* About */
 .about {
+    display: grid;
     grid-template-rows: repeat(2, 1fr);
     background-image: url("../img/infamily_onlydino.png"), url("../img/infamilypasto.png"),url("../img/infamily_cielito-dia.png"), url("../img/logo_info.png"), url("../img/infamilyletrita.png");
     background-size: 25rem, 80rem, 50rem, 40rem, 30rem;
