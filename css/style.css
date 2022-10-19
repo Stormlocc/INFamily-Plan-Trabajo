@@ -77,23 +77,36 @@ img {
     border-radius: .5rem;
 }
 /*Propuestas*/
+.site-tag {
+    display: flex;
+    justify-content: left;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 2rem;
+    color: var(--yellow);
+    margin: 0;
+    line-height: .9;
+}
 
 ul{
     display: inline-block;
     padding: 0px 10%;
 }
 li{
+    color: rgb(61, 61, 61);
+    font-family: 'Comic Neue', cursive;
+    font-size: 23px;
     display: block;
-    margin: 10px;
-    padding: 15px;
+    margin: 15px;
+    padding: 25px 35px;
     text-align: justify;
-    border: 1px solid rgb(0, 224, 67); border-bottom-color: rgb(0, 0, 0);
+    border: 2px solid #f5b02d;
     border-radius: 8px;
     background-color: rgba(219, 219, 219, 0.74);
+    box-shadow: 3px 3px 2px 1px rgba(141, 140, 70, 0.76)
 }
 
 li:hover{
-    background-color: #000;
+    background-color: rgb(104, 104, 104);
     color: azure;
     box-shadow: #00c4cc;
 }
