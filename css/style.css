@@ -25,12 +25,16 @@ h1, h2, h3 {
 }
 h1 {
     font-size: 4.8rem;
+    margin: 0px 20px;
+    
 }
 h2 {
     font-size: 5.8rem;
 }
 h3 {
-    font-size: 5rem;
+    font-size: 3.8rem;
+    margin: 0px 0px;
+    padding-left: 40px;
 }
 a {
     text-decoration: none;
@@ -72,7 +76,27 @@ img {
     color: var(--blue);
     border-radius: .5rem;
 }
+/*Propuestas*/
 
+ul{
+    display: inline-block;
+    padding: 0px 10%;
+}
+li{
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+    border: 1px solid rgb(0, 224, 67); border-bottom-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: rgba(219, 219, 219, 0.74);
+}
+
+li:hover{
+    background-color: #000;
+    color: azure;
+    box-shadow: #00c4cc;
+}
 
 .nav {
     display: flex;
